@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaa155955cebced19efd2684b438c90, type: 3}
+  m_Name: Enemy_Shambler
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.EnemyData
+  displayName: Shambler
+  stats:
+    MaxHp: 20
+    Speed: 1.5
+    ContactDamage: 7
+    Radius: 0.42
+    KnockbackResistance: 0.1
+  xpValue: 2
+  dropsChest: 0
+  isBoss: 0
+  sprite: {fileID: 21300000, guid: 28c80e750ca977eec86dbaa657b1d83e, type: 3}
+  flashSprite: {fileID: 21300000, guid: 7a6d49d147086434bac992d7bedb847a, type: 3}
+  visualScale: 1
+  sortingOrder: 11
+  deathColor: {r: 0.55, g: 0.8, b: 0.4, a: 1}

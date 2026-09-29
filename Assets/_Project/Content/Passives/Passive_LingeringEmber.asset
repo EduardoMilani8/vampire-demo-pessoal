@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 419609389f33a77f881e32fc5df98809, type: 3}
+  m_Name: Passive_LingeringEmber
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.PassiveData
+  passiveId: lingering_ember
+  displayName: Lingering Ember
+  description: Efeitos duram mais.
+  icon: {fileID: 21300000, guid: 08292ebd255ca4eaeaf85423c00b9d32, type: 3}
+  stat: 7
+  amountPerLevel: 0.15
+  maxLevel: 5

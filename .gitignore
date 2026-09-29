@@ -1,0 +1,36 @@
+# Unity: pastas geradas (nunca commitar; a Unity recria ao abrir o projeto)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Arquivos gerados pelas IDEs / Unity
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.pdb
+*.mdb
+*.log
+.vs/
+.idea/
+.vscode/
+.vsconfig
+.utmp/
+crashlytics-build.properties
+
+# Build de testes do Core (dotnet)
+Tools~/CoreTests/bin/
+Tools~/CoreTests/obj/
+
+# Sistema
+.DS_Store
+Thumbs.db

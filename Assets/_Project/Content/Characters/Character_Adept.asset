@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c318a05b0d7cb0ddd8dd50ff331abe4d, type: 3}
+  m_Name: Character_Adept
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.CharacterData
+  characterId: lyra_adept
+  displayName: Lyra, Adepta dos Orbes
+  description: "Aprende depressa e dispara mais r\xE1pido. Come\xE7a com o Seeker
+    Wisp."
+  sprite: {fileID: 21300000, guid: ca0622851ab2be3679392d49cf68fbc4, type: 3}
+  startingWeapon: {fileID: 11400000, guid: 4335318f6875c8a38bceb4f8cfcbcdb2, type: 2}
+  bonuses:
+  - Stat: 10
+    Amount: 0.1
+  - Stat: 4
+    Amount: 0.05
+  unlockCost: 250
+  unlockedByDefault: 0

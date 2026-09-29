@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c318a05b0d7cb0ddd8dd50ff331abe4d, type: 3}
+  m_Name: Character_Warden
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.CharacterData
+  characterId: warden
+  displayName: "Aldric, o Guardi\xE3o"
+  description: "Firme como uma muralha. Come\xE7a com a Crescent Blade."
+  sprite: {fileID: 21300000, guid: 3d34170ca18abce188ea8b0426645f4d, type: 3}
+  startingWeapon: {fileID: 11400000, guid: 5cadba60e77158116b3b0c3e4c4b75a5, type: 2}
+  bonuses:
+  - Stat: 1
+    Amount: 1
+  - Stat: 2
+    Amount: 0.1
+  unlockCost: 0
+  unlockedByDefault: 1

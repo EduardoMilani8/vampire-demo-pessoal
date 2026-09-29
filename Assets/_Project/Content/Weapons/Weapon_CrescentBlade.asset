@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7ba66a518a35c8daace7a8ac65e5a4, type: 3}
+  m_Name: Weapon_CrescentBlade
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.WeaponData
+  weaponId: crescent_blade
+  displayName: Crescent Blade
+  description: "Corta em arco na dire\xE7\xE3o em que voc\xEA anda."
+  icon: {fileID: 21300000, guid: a7111b59042f63a7b8e25c695dcd7341, type: 3}
+  behavior: 0
+  evolutionOnly: 0
+  baseStats:
+    Damage: 10
+    Area: 1
+    Cooldown: 1.4
+    Duration: 1
+    ProjectileSpeed: 1
+    Knockback: 6
+    Amount: 1
+    Pierce: 0
+  levelUps:
+  - DamageAdd: 5
+    AreaPct: 0
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 0
+    PierceAdd: 0
+  - DamageAdd: 0
+    AreaPct: 0
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 1
+    PierceAdd: 0
+  - DamageAdd: 0
+    AreaPct: 0.2
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 0
+    PierceAdd: 0
+  - DamageAdd: 5
+    AreaPct: 0
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 0
+    PierceAdd: 0
+  - DamageAdd: 0
+    AreaPct: 0
+    CooldownPct: -0.1
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 0
+    PierceAdd: 0
+  - DamageAdd: 0
+    AreaPct: 0.2
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 0
+    PierceAdd: 0
+  - DamageAdd: 5
+    AreaPct: 0
+    CooldownPct: 0
+    DurationPct: 0
+    SpeedPct: 0
+    KnockbackAdd: 0
+    AmountAdd: 1
+    PierceAdd: 0
+  baseSize: 1.7
+  baseSpeed: 7
+  baseDuration: 1
+  arcAngleDegrees: 100
+  effectSprite: {fileID: 21300000, guid: 0948d767d5ac345c3b57b6782948abf4, type: 3}
+  effectTint: {r: 1, g: 1, b: 1, a: 1}
+  evolvesInto: {fileID: 11400000, guid: fb1dc3c0e7d9d16a68352592ca6b4d90, type: 2}
+  requiredPassive: {fileID: 11400000, guid: 7ab908b14d794870989e8a5ec0a59e74, type: 2}

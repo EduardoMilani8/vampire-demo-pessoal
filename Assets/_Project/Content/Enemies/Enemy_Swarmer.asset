@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaa155955cebced19efd2684b438c90, type: 3}
+  m_Name: Enemy_Swarmer
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.EnemyData
+  displayName: Swarmer
+  stats:
+    MaxHp: 5
+    Speed: 2
+    ContactDamage: 3
+    Radius: 0.2
+    KnockbackResistance: 0
+  xpValue: 1
+  dropsChest: 0
+  isBoss: 0
+  sprite: {fileID: 21300000, guid: c37a59c21641800739c1706492aa4935, type: 3}
+  flashSprite: {fileID: 21300000, guid: 74b877ae11c8f42c9adebd501a141a8f, type: 3}
+  visualScale: 1
+  sortingOrder: 12
+  deathColor: {r: 0.98, g: 0.78, b: 0.25, a: 1}

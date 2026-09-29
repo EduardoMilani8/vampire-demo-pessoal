@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7ba66a518a35c8daace7a8ac65e5a4, type: 3}
+  m_Name: Weapon_EclipseEdge
+  m_EditorClassIdentifier: HollowTide.Runtime::HollowTide.WeaponData
+  weaponId: eclipse_edge
+  displayName: Eclipse Edge
+  description: Um corte enorme e triplo.
+  icon: {fileID: 21300000, guid: d63aad8699aecdc8fb8a07668d751bdd, type: 3}
+  behavior: 0
+  evolutionOnly: 1
+  baseStats:
+    Damage: 32
+    Area: 1.5
+    Cooldown: 1
+    Duration: 1
+    ProjectileSpeed: 1
+    Knockback: 9
+    Amount: 3
+    Pierce: 0
+  levelUps: []
+  baseSize: 1.7
+  baseSpeed: 0
+  baseDuration: 1
+  arcAngleDegrees: 100
+  effectSprite: {fileID: 21300000, guid: 0948d767d5ac345c3b57b6782948abf4, type: 3}
+  effectTint: {r: 0.85, g: 0.55, b: 1, a: 1}
+  evolvesInto: {fileID: 0}
+  requiredPassive: {fileID: 0}

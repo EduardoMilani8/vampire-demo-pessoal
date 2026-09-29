@@ -1,0 +1,16 @@
+{
+  "name": "HollowTide.Runtime",
+  "rootNamespace": "HollowTide",
+  "references": [
+    "HollowTide.Core",
+    "Unity.InputSystem",
+    "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "noEngineReferences": false
+}
